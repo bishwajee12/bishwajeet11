@@ -1,0 +1,31 @@
+.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Triangle Calculator</h2>
+        <img src="triangle_diagram.png" alt="Triangle Diagram" width="100%">
+        
+        <h3>Calculate Perimeter</h3>
+        <input type="number" id="sideA" placeholder="Side A">
+        <input type="number" id="sideB" placeholder="Side B">
+        <input type="number" id="sideC" placeholder="Side C">
+        <button onclick="calculatePerimeter()">Calculate Perimeter</button>
+        <p id="perimeterResult"></p>
+        
+        <h3>Calculate Area</h3>
+        <input type="number" id="base" placeholder="Base">
+        <input type="number" id="height" placeholder="Height">
+        <button onclick="calculateArea()">Calculate Area</button>
+        <p id="areaResult"></p>
+        
+        <h3>Calculate Volume of Triangular Prism</h3>
+        <input type="number" id="prismBase" placeholder="Base">
+        <input type="number" id="prismHeight" placeholder="Height">
+        <input type="number" id="prismLength" placeholder="Length">
+        <button onclick="calculateVolume()">Calculate Volume</button>
+        <p id="volumeResult"></p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
